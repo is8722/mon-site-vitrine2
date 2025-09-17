@@ -1,0 +1,173 @@
+/* Mise en forme globale */
+body {
+    font-family: 'Fredoka One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8D8E4;
+    color: #5D3F6B;
+}
+
+/* Header */
+header {
+    background: url('background-header.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+header .header-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* Présentation avec image à droite */
+.presentation {
+    background-color: #F7D4E0;
+    padding: 50px 20px;
+}
+
+.presentation h2 {
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.presentation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.presentation p {
+    font-size: 1.3em;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.presentation-img img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Produits sous forme de grille */
+.products {
+    background-color: #F9C4D6;
+    padding: 50px 20px;
+}
+
+.products h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.product-item {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item p {
+    background-color: #F6A4D3;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Témoignages */
+.testimonials {
+    background-color: #F8B8D1;
+    padding: 50px 20px;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial-card {
+    background-color: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+/* Contact */
+.contact {
+    background-color: #F7A4D9;
+    padding: 50px 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #F6A4D3;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #F6A4D3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #F47CB2;
+}
+
+/* Footer */
+footer {
+    background-color: #F9A8D4;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+}
